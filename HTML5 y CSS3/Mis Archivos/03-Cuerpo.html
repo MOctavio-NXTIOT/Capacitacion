@@ -120,9 +120,9 @@
             ACC ..m4a m4b .m4p .mp4 .acc diseñado para ser sucesor del mp3
             Los 3 más usados son .m4a. mp3 y .ogg-->
 
-            <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/audio/audio.m4a">
-            <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/audio/audio.mp3">
-            <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/audio/audio.ogg">
+            <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/audio/audio.m4a" type="audio/m4a">
+            <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/audio/audio.mp3" type="audio/mp3">
+            <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/audio/audio.ogg" type="audio/ogg">
 
         </audio>
         <!--En cuanto cargue la página se reproducirá (autoplay) el archivo "audio"
@@ -130,6 +130,14 @@
         En cuanto termine la reproducción volverá a comenzar (loop)
         El archivo comenzará a cargarse desde que cargamos la página (preload="auto", puede ser metadata o none)-->
 
+        <video autoplay loop controls preload="auto" width="500" height="200">
+
+            <!--Formatos comunes .ogg .ogv .webm .mp4-->
+            <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/video/video.mp4" type="video/mp4">
+            <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/video/video.ogv" type="video/ogg">
+            <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/video/video.webm" type="video/webm">
+
+        </video>
         <footer>Este es el pie de página</footer>
         <!--Con footer agregamos el pie de página.-->
     </body>
