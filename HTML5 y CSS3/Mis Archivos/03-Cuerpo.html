@@ -111,6 +111,25 @@
         <p>Pedro:<progress value="45" min="0" max="100"></progress></p>
         <!--Muestra valores numéricos gráficamente-->
 
+        <audio autoplay controls loop preload="auto">
+
+            <!--Formatos comunes;
+            Ogg VORBIS .ogg (Ayuda con el ahorro de ancho de banda) (Firefox, Chrome y Opera)
+            MP3 .mp3 (Chrome, IE, IOS, Android)
+            WAV .wav No está comprimido, es muy pesado
+            ACC ..m4a m4b .m4p .mp4 .acc diseñado para ser sucesor del mp3
+            Los 3 más usados son .m4a. mp3 y .ogg-->
+
+            <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/audio/audio.m4a">
+            <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/audio/audio.mp3">
+            <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/audio/audio.ogg">
+
+        </audio>
+        <!--En cuanto cargue la página se reproducirá (autoplay) el archivo "audio"
+        La página mostrará controles (controls) para dicho audio
+        En cuanto termine la reproducción volverá a comenzar (loop)
+        El archivo comenzará a cargarse desde que cargamos la página (preload="auto", puede ser metadata o none)-->
+
         <footer>Este es el pie de página</footer>
         <!--Con footer agregamos el pie de página.-->
     </body>
