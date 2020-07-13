@@ -111,7 +111,7 @@
         <p>Pedro:<progress value="45" min="0" max="100"></progress></p>
         <!--Muestra valores numéricos gráficamente-->
 
-        <audio autoplay controls loop preload="auto">
+        <audio <!--autoplay--> controls loop preload="auto">
 
             <!--Formatos comunes;
             Ogg VORBIS .ogg (Ayuda con el ahorro de ancho de banda) (Firefox, Chrome y Opera)
@@ -130,15 +130,20 @@
         En cuanto termine la reproducción volverá a comenzar (loop)
         El archivo comenzará a cargarse desde que cargamos la página (preload="auto", puede ser metadata o none)-->
 
-        <video autoplay loop controls preload="auto" width="500" height="200">
+        <video loop controls preload="auto" width="500" height="200">
 
-            <!--Formatos comunes .ogg .ogv .webm .mp4-->
+            <!--Formatos comunes .ogv .webm .mp4-->
             <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/video/video.mp4" type="video/mp4">
-            <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/video/video.ogv" type="video/ogg">
+            <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/video/video.ogv" type="video/ogv">
             <source src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/video/video.webm" type="video/webm">
-
+            
         </video>
+
+        <iframe width="500" height="281" src="https://www.youtube.com/embed/ogGAbjpgDYY" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15061.004670445976!2d-99.10298230031945!3d19.314904391217752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce02224a4af2f5%3A0xfdb24d8e763a6e61!2sSiracusa%20129%2C%20Lomas%20Estrella%202da%20Secc%2C%20Iztapalapa%2C%2009890%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1594667929121!5m2!1ses-419!2smx" width="600" height="450" frameborder="0"></iframe>
+        <iframe src="https://www.elcolombiano.com/" width="500" height="500" scrolling="auto" frameborder="0" AllowTransparency="true"></iframe>
         <footer>Este es el pie de página</footer>
         <!--Con footer agregamos el pie de página.-->
+
     </body>
 </html>
