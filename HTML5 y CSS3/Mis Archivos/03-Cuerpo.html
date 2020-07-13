@@ -15,13 +15,74 @@
     </head>
 
     <body>
-        <header>Cabezote</header>
+
+        <centered><h1>Formulario</h1></centered>
+        
+        <label for="texto">Entrada de texto</label>
+        <form><input id="texto" type="text" placeholder="Entrada de texto" value="">
+
+            <br>
+            <br>
+
+            <label for="correo">Entrada de correo</label>
+            <input id="correo" type="email" placeholder="Entrada de correo" value="" required>
+
+            <br>
+            <br>
+
+            <label for="password">Entrada de password</label>
+            <input id="password" type="password" placeholder="Entrada de password" value="">
+            
+            <br>
+            <br>
+
+            <label for="number">Entrada de number</label>
+            <input id="number" type="number" value="1" min="0" max="100" placeholder="Entrada de number">
+
+            <br>
+            <br>
+
+            <select>
+                <option>Opción 1</option>
+                <option>Opción 2</option>
+                <option>Opción 3</option>
+            </select>
+            
+            <br>
+            <br>
+
+            <input type="checkbox"  id="rojo"><label for="rojo#">Rojo</label>
+            <input type="checkbox"  id="amarillo"><label for="amarillo#">Amarillo</label>
+            <input type="checkbox"  id="verde"><label for="verde#">Verde</label>
+            
+            <br>
+            <br>
+
+            <input type="radio"  id="blanco" name="colorselect"><label for="blanco#">Blanco</label>
+            <input type="radio"  id="negro"  name="colorselect"><label for="negro#">Negro</label>
+            <input type="radio"  id="morado" name="colorselect" checked><label for="morado#">Morado</label>
+
+            <br>
+            <br>
+
+            <input type="submit" value="Enviar formulario">
+        </form>
+        <header>Cabezote
+            <div id="logotipo">Logotipo</div>
+            <!--div me divide una caja en seeciones a las que posteriormenete les puedo dar estilo individual con ayuda de id o grupal con ayuda de class-->
+        </header>
         <!--Cabezote de la página-->
         <nav>Barra de Navegación</nav>
         <!--Barra de navegación de la página-->
         <section>Sección Principal</section>
         <!--Sección principal de la página-->
-        <aside>Columna</aside>
+        <aside>Columna
+
+            <div class="noticias">Noticia 1</div>
+            <div class="noticias">Noticia 2</div>
+            <div class="noticias">Noticia 3</div>
+
+        </aside>
         <!--Columna de la página-->
         <article>Articulo</article>
         <!--Artículo de la página-->
@@ -142,6 +203,8 @@
         <iframe width="500" height="281" src="https://www.youtube.com/embed/ogGAbjpgDYY" frameborder="0" allowfullscreen></iframe>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15061.004670445976!2d-99.10298230031945!3d19.314904391217752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce02224a4af2f5%3A0xfdb24d8e763a6e61!2sSiracusa%20129%2C%20Lomas%20Estrella%202da%20Secc%2C%20Iztapalapa%2C%2009890%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1594667929121!5m2!1ses-419!2smx" width="600" height="450" frameborder="0"></iframe>
         <iframe src="https://www.elcolombiano.com/" width="500" height="500" scrolling="auto" frameborder="0" AllowTransparency="true"></iframe>
+        <!--En escencia, la etiqueta compuesta iframe nos permite embeber contenido de otras páginas html-->
+
         <footer>Este es el pie de página</footer>
         <!--Con footer agregamos el pie de página.-->
 
