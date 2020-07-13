@@ -44,8 +44,12 @@
         </p>
         <!--Párrafo de la página-->
 
-        <img src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/img/imagen.jpg">
-        <!--agrega una imagen al sitio web-->
+        <figure>
+       z     <img src="/home/octavio/Desktop/NXTIOT/Capacitacion/HTML5 y CSS3/Seccion 1/img/imagen.jpg">
+            <!--agrega una imagen al sitio web-->    
+        </figure>
+        <!--Etiqueta auxiliar para organizar imágenes-->
+        <figcaption>Este es el pie de página de la imagen</figcaption>
         
         <ol>
             <li>Carro</li>
@@ -64,30 +68,50 @@
         Lista no numerada-->
 
         <table border="1">
-            <tr>
-                <th>Mes</th>
-                <th>Ahorro</th>
-            </tr>
-            <tr>
-                <th>Enero</th>
-                <th>$100</th>
-            </tr>
-            <tr>
-                <th>Febrero</th>
-                <th>$200</th>
-            </tr>
-            <tr>
-                <th>Marzo</th>
-                <th>$Over 9000!!!</th>
-            </tr>
+
+            <thead>
+
+                <tr>
+                    <th>Mes</th>
+                    <th>Ahorro</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                
+                <tr>
+                    <td>Enero</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>Febrero</td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                    <td>Marzo</td>
+                    <td>Over $9000!!!</td>
+                </tr>
+
+            </tbody>
         </table>
         <!--Tabla con 4 renglones, 2 columnas y un borde-->
 
-        <h1>Resultados del exámen</h1>
+        <h1>Resultados del exámen (Meter)</h1>
         <p>Carlos:<meter value="94" min="0" max="100" high="90"></meter></p>
         <p>Andrés:<meter value="10" min="0" max="100" high="90"></meter></p>
         <p>Ana:<meter value="80" min="0" max="100" high="90"></meter></p>
         <p>Pedro:<meter value="45" min="0" max="100" high="90"></meter></p>
-        
+        <!--Muestra valores numéricos gráficamente-->
+
+        <h1>Resultados del exámen (Progress)</h1>
+        <p>Carlos:<progress value="94" min="0" max="100"></progress></p>
+        <p>Andrés:<progress value="10" min="0" max="100"></progress></p>
+        <p>Ana:<progress value="80" min="0" max="100"></progress></p>
+        <p>Pedro:<progress value="45" min="0" max="100"></progress></p>
+        <!--Muestra valores numéricos gráficamente-->
+
+        <footer>Este es el pie de página</footer>
+        <!--Con footer agregamos el pie de página.-->
     </body>
 </html>
