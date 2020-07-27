@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <title>Curso CSS3 Propiedades de ubicación</title>
+
+        <style>
+
+            *{
+                margin:0;
+                padding: 0;
+                list-style: none;    
+            }
+
+            header{
+                
+                position: relative;
+                margin:20px auto;
+                width: 1000px;
+                height: 120px;
+                background: #540920
+
+            }
+
+            #logo{
+                
+                position:absolute;
+                top: 30px;
+                left: 30px;
+
+                width: 200px;
+                height:60px;
+                background: #270410;
+            }
+
+            .redes{
+                
+                position:absolute;
+                width: 42px;
+                height:42px;
+                background: #270410;
+                border-radius: 100%;
+            }
+
+            #icono1{
+                
+                top: 42px;
+                right: 120px;
+
+            }
+
+            #icono2{
+                
+                top: 42px;
+                right: 71px;
+
+            }
+
+            #icono3{
+                
+                top: 42px;
+                right: 19px;
+
+            }
+
+            nav{
+                                
+                position: relative;
+                margin:auto;
+                width: 1000px;
+                height: 48px;
+
+            }
+
+            .botones{
+
+                float: left; /*Hace flotar el listado a nivel horizontal de izquiera a derecha*/
+                width: 196px;
+                height: 48px;
+                margin: 0 2px;
+                background: #540920;
+
+            }
+
+            #top{
+
+                position: relative;
+                margin:20px auto;
+                width: 1000px;
+                height: 192px;
+
+            }
+
+            #top ul{
+                width: 1010px;
+                height: 192px;
+            }
+
+            #top ul li{
+
+                float: left;
+                width: 326px;
+                height: 192px;
+                background: #540920;
+                margin-right: 10px;
+
+            }
+
+            section{
+
+                position: relative;
+                margin:auto;
+                width: 1000px;
+                height: 453px;
+
+            }
+
+            aside#izq{
+
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 200px;
+                height: 453px;
+                background: #540920;
+                
+            }
+
+            article{
+
+                position:absolute;
+                top: 0;
+                left: 200px;
+                width: 600px;
+                height: 453px;
+                background: #270410;
+            }
+
+            aside#der{
+
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 200px;
+                height: 453px;
+                background: #540920;
+                
+            }
+
+            footer{
+
+                position: relative;
+                margin:20px auto;
+                width: 1000px;
+                height: 70px;
+                background: #540920
+
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <header>
+            
+            <div id="logo"></div>
+
+            <div id="icono1" class="redes"></div>
+            <div id="icono2" class="redes"></div>
+            <div id="icono3" class="redes"></div>
+
+        </header>
+
+        <nav>
+
+            <ul>
+
+                <li class="botones"></li>
+                <li class="botones"></li>
+                <li class="botones"></li>
+                <li class="botones"></li>
+                <li class="botones"></li>
+
+            </ul>
+
+        </nav>
+
+        <div id="top">
+
+            <ul>
+
+                <li></li>
+                <li></li>
+                <li></li>
+
+            </ul>
+
+        </div>
+
+        <section>
+
+            <aside id="izq"></aside>
+
+            <article></article>
+
+            <aside id="der"></aside>
+
+        </section>
+
+        <footer></footer>
+
+    </body>
+
+</html>
